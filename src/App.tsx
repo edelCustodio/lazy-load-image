@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <Global />
-      <h1>Random Images</h1>
+      <h1>Lazy load Images</h1>
       <Grid>
         {[ ...Array(100).keys() ].map(i => (
           <LazyImage
